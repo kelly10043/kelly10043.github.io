@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://127.0.0.1:5500/eunjeong/assignment1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    
+        <script src="./html_files/jquery-3.6.0.js.다운로드" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <!-- 합쳐지고 최소화된 최신 CSS -->
+<link rel="stylesheet" href="./html_files/bootstrap.min.css">
+
+<!-- 부가적인 테마 -->
+<link rel="stylesheet" href="./html_files/bootstrap-theme.min.css">
+
+<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+<script src="./html_files/bootstrap.min.js.다운로드"></script>
+        
+        <title>[유은정의 관심분야]</title>
+    </head> 
+
+<body>
+    <div class="container">
+        <br>
+        <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="http://127.0.0.1:5500/eunjeong/assignment1.html#">Everland</a></li>
+            <li role="presentation"><a href="http://127.0.0.1:5500/eunjeong/assignment1.html#">Lotte World</a></li>
+            
+          </ul>
+        <h1>[나의 가장 좋아하는 롤러코스터]</h1>
+        <h2>'스릴있는' 놀이기구</h2> <br>
+    <br>
+    <img src="./html_files/atlantis.jpg" height="300">
+    <br>
+    <form action="http://127.0.0.1:5500/eunjeong/%EC%A0%84%EC%86%A1%EB%B0%9B%EC%9D%84%20%EB%8C%80%EC%83%81">
+        <h2>나의 일기장</h2>
+        제목: <input type="text" name="diarytitle">
+        <select>
+            <option value="goodday">좋은날</option>
+            <option value="sadday">슬픈날</option>
+
+        </select> <br>
+        내용: <br>
+        <textarea cols="30" rows="20"></textarea>
+        
+        <br><input type="text" <input="" class="btn btn-primary">
+    </form><br>
+    <h2>나의 일대기</h2>
+
+    <ol>
+        <li><a href="http://127.0.0.1:5500/eunjeong/1.html">유년기</a></li>
+        <li>질풍노도</li> 
+        <li>지금</li>
+    </ol>
+    </div>
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
